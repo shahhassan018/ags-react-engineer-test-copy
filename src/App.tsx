@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Navbar from './components/Navbar';
 import GlobalStyle from './globalStyle';
 import Topbar from './components/Topbar';
+import SearchBar from './components/Searchbar/Searchbar';
 
 const Main = styled.main`
   display: grid;
@@ -21,6 +22,7 @@ const App: FC = () => {
         <Navbar />
         <article>
           <Topbar />
+          <SearchBar />
         </article>
       </Main>
     </>
